@@ -5,6 +5,8 @@
 
 **Our objective is to create an interactive map that chronicles the history of life on earth.**
 
+![](./_img/screencast-example.gif?raw=true)
+
 <a name="why" />
 ## Why
 
