@@ -19,7 +19,7 @@
 * **Render maps**: Using TileMill, a desktop mapmaking app from MapBox, to style and render map tiles from API-exported GeoJSONs.
 * **Access maps**: Using a paid MapBox account to store and serve tile images.
 * **View maps**: The version 1 of Atlastory.js uses Leaflet and other custom code to display demo maps on a timeline at *map.atlastory.com*.
-* **Collaboration**8: A combination of Google Groups (for mapping) Github issues (for development).
+* **Collaboration**: A combination of Google Groups (for mapping) Github issues (for development).
 * **Documentation**: Using markdown files on Github + API documentation.
 
 ### Roadmap to Phase II
