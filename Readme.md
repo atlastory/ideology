@@ -16,10 +16,10 @@
 
 *Why Atlastory in particular?* There are a handful of other projects working toward a similar goal or on similar technology. So why is [this](#how) the right approach?
 
-* Given the enormity of the data collection task, content **needs to be crowdsourced**, along with major pieces of the technology stack open-sourced (like the API).
-* A single entity should guide the direction of the community, whether for- or non-profit, similar to the OpenStreetMap Foundation (especially regarding operations and design of the experience).
-* Map creation should be top down, from global to local. The purpose of an Atlastory map is not navigation, it is understanding of history. So high map detail (minor roads, structures, etc.) is not as necessary at first. Creating a global “structure” over time will also provide context and make it easier to interest other users/contributors.
-* Infrastructure is unique and must be created from scratch. The technological requirements to implement Atlastory are unique enough that it shouldn't built on top of other platforms (like OSM). Of course, this doesn’t include borrowing concepts and using other open-source libraries. Starting from scratch also allows the opportunity for innovation in data storage, retrieval, rendering and display.
+* Given the enormity of the data collection task, content **needs to be crowdsourced**, along with major pieces of the technology stack open-sourced (like the API). Historic map data has been collected for many years by organizations around the world. Keeping this and any new data **open** increases its *accuracy*, *speed of collection* and *availability* to everyone.
+* **A single entity should guide the direction of the community**, similar to the OpenStreetMap Foundation (especially regarding operations and design of the experience). Many historic mapping organizations can work in parallel collecting data from the ground up — but effectively storing, accessing, and distributing the data is best led top-down.
+* **Map creation should be top down**, from global to local. The purpose of an Atlastory map is not navigation, it is understanding of history. So high map detail (minor roads, structures, etc.) is not as necessary at first. Creating a global “structure” over time will also provide context and make it easier to interest other users/contributors.
+* **Infrastructure is unique and must be created from scratch.** The technological requirements to implement Atlastory are unique enough that it shouldn't built on top of other platforms (like OSM). Of course, this doesn’t include borrowing concepts and using other open-source libraries. Starting from scratch also allows the opportunity for innovation in data storage, retrieval, rendering and display.
 
 **[>> Guiding Principles](Principles.md)**
 
@@ -34,13 +34,13 @@
 	* System for adding/managing multiple changesets of data
 	* User accounts + API token access
 2. Build historic mapping community
-	* (?) Build forums / discussion boards
 	* (?) Build community how-to wiki
-	* Seed map content
+	* Seed map content from global > local
 3. Build crowdsourced historic map editor (a web-based editor that connects to the API) with the ability to:
 	* Add/edit data on a local scale (basic functionality of iD from MapBox)
 	* Add/edit data on a global scale (GIS functionality tailored for specific uses like drawing borders)
 	* More advanced shape editing tools like split, merge, trim
+    * Easily collect existing data produced by other organizations in any format
 	* View modern & historic map overlays as a source (including warp tools to match projections)
 	* Methods to easily find and reference archival maps
 4. Build server-side tile renderer (image and vector), including:
@@ -50,13 +50,14 @@
 	* Tile storage / serving
 5. Build map viewer (client-side viewer + timeline)
 
+See the more detailed Roadmap for exactly what has and needs to be done:
+
 **[>> Detailed Roadmap](Roadmap.md)**
 
 <a name="map" />
 #### The Map
 
 The design of the base map will be an elegant combination between 3 map types:
-
 
 1. **Physical**, with basic landscape features and geography;
 2. **Political**, with sovereign and administrative boundaries; and
