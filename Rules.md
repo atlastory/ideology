@@ -7,8 +7,3 @@
 3. Rules shouldn't be too specific (they are open to *some* interpretation)
 4. Each rule must be based on guiding principles or general time-tested observations
 
-## For part-time contractors
-
-## For team members
-
-
