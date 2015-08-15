@@ -5,7 +5,7 @@
 | Purpose             | Codebase      | Description                        | Phase I                                          | Phase II                   |
 |---------------------|---------------|------------------------------------|--------------------------------------------------|----------------------------|
 | ***Store & access data*** | [api](https://github.com/atlastory/api)          | Map data storage, acces, importing | api.atlastory.com, Github                        | api.atlastory.com          |
-| ***Edit data***           | Editor.js     | Client-side map editing library    | Desktop GIS applications                         | edit.atlastory.com         |
+| ***Edit data***           | [Editor.js](https://github.com/atlastory/Editor.js)     | Client-side map editing library    | Desktop GIS applications                         | edit.atlastory.com         |
 | ***Render maps***         | tile-renderer | Tile rendering / storage           | TileMill                                         | Atlastory render server(s) |
 | ***Access maps***         | tile-server   | Tile serving                       | MapBox                                           | tiles.atlastory.com        |
 | ***View maps***           | [Atlastory.js](https://github.com/atlastory/Atlastory.js)  | Client-side map viewing library    | map.atlastory.com                                | atlastory.com              |
